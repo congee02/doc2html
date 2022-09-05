@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="doc2html:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>doc2html</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="doc2html.war">
+      <element id="artifact" artifact-name="doc2html:war exploded" />
+    </root>
+  </artifact>
+</component>
